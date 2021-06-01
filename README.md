@@ -46,5 +46,23 @@ cluster_vip = 'prod-cluster.eng.cohesity.com' #Cluster IP
 ('05-31-2021 22:00:00', u'xxxxxxxx', xxxxx, u'kSuccess') 
 
 4. so far so good .
-5. copy the file in the project to your python environments.
-6. 
+5. copy file version in the project to your python environments. and run the script with env variables.
+
+python /usr/local/lib/python2.7/dist-packages/samples/protection_runs_status/protection_run_status_v2.py Jobname
+Scripts will return Following Values based on the result of job.
+status == 'kSuccess' 	: "2"
+status == 'kRunning'	: "5"
+status == 'kWarning' 	: "1"
+status == 'kCancelled'  : "4"
+status == 'kError' 	: "0" 
+
+
+
+
+
+
+
+
+
+
+7. 
