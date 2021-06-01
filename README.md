@@ -40,11 +40,11 @@ cluster_vip = 'prod-cluster.eng.cohesity.com' #Cluster IP
 python /usr/local/lib/python2.7/dist-packages/samples/protection_runs_status/protection_run_status_v2.py #JOBNAME
 Scripts will return Following Values based on the result of job.
 
-    status == 'kSuccess' 	: "2"
-    status == 'kRunning'	: "5"
-    status == 'kWarning' 	: "1"
-    status == 'kCancelled'      : "4"
-    status == 'kError' 	        : "0" 
+    status == 'kSuccess'   : "2"
+    status == 'kRunning'   : "5"
+    status == 'kWarning'   : "1"
+    status == 'kCancelled' : "4"
+    status == 'kError' 	 : "0" 
 7. Update zabbix agent conf  on the zabbix server 
 
     EnableRemoteCommands=1
