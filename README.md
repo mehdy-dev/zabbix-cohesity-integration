@@ -1,4 +1,3 @@
-
 # Zabbix Cohesity Back up Solution Integration
 ## Overview
 
@@ -51,3 +50,6 @@ Scripts will return Following Values based on the result of job.
     UserParameter=uPJD.discovery,python /usr/local/lib/python2.7/dist-packages/samples/protection_runs_status/protection_run_status_v2.py
 
     UserParameter=uPJD.value[*],python /usr/local/lib/python2.7/dist-packages/samples/protection_runs_status/protection_run_status_v2.py $1
+
+7. add the template Cohesity to the Zabbix server host.
+8. Thanks.
