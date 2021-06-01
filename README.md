@@ -43,8 +43,8 @@ Scripts will return Following Values based on the result of job.
     status == 'kSuccess' 	: "2"
     status == 'kRunning'	: "5"
     status == 'kWarning' 	: "1"
-    status == 'kCancelled'  : "4"
-    status == 'kError' 		: "0" 
+    status == 'kCancelled'      : "4"
+    status == 'kError' 	        : "0" 
 7. Update zabbix agent conf  on the zabbix server 
 
     EnableRemoteCommands=1
