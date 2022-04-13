@@ -34,7 +34,7 @@ class ProtectionRunsList(object):
         list_obj = []
         res_str= ''
  
-		if argv_1 is None:
+	if argv_1 is None:
                 for run in run_list:
                         # print(self.epoch_to_date(run.backup_run.stats.start_time_usecs), run.job_name, run.backup_run.job_run_id, run.backup_run.status)
                         list_obj.append(jobs(run.job_name,run.backup_run.status))
@@ -76,7 +76,7 @@ class ProtectionRunsList(object):
                 res_null += '{'+'"{#PJ}"'+':'+ResJson+'}'+','+'{'+'"{#STATUS}"'+':'+status+'}'
                 ret_val = "7"
  
-				for jsonobj in list_obj:
+		for jsonobj in list_obj:
                         if jsonobj.name == argv_1 :
                                 ResJson = json.dumps(jsonobj.name)
                                 status = jsonobj.result
