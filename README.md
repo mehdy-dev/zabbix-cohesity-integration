@@ -55,4 +55,6 @@ Scripts will return Following Values based on the result of job.
     UserParameter=uPJD.value[*],python /usr/local/lib/python2.7/dist-packages/samples/protection_runs_status/protection_run_status_v2.py $1
 
 8. add the template Cohesity to the Zabbix server host.
-9. Thanks.
+9. Zabbix Agent need to be running on the host in which Cohesity SDK is installed.
+10. passing the Space in the name of job will result in error.
+11. Thanks.
